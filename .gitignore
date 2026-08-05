@@ -1,0 +1,5 @@
+.derived/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.DS_Store

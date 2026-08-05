@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1122F1F215AB687C9B43D568 /* OverlayWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AC223BB557F32D7D727961 /* OverlayWindowController.swift */; };
+		1C0D9EED4247FB599619A217 /* AppPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CD017AB9632575C4F03E91 /* AppPreferences.swift */; };
+		20DB62704B79330B190882EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E3BA44E03EDBD609F2934DA /* Assets.xcassets */; };
+		3AC700154CA483B49DC291B3 /* CaptureProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9807AD4BD19C0419E7B5463A /* CaptureProbe.swift */; };
+		3F920C83E9D927A3B71DFDE1 /* DiagnosticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72F6C82242B94D05E337089 /* DiagnosticView.swift */; };
+		8B76B10DFEE5F50A04F161E1 /* EventMetadataProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175BCAFAAE4F83D10390348B /* EventMetadataProbe.swift */; };
+		8D90EA6764E7EF47E434E6A9 /* AgentShieldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A38A9FBD96FA9CD4A9329B /* AgentShieldApp.swift */; };
+		992B8742646BE6452D8AFE8A /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606194EA16FF587D7AA947EF /* DashboardView.swift */; };
+		AFAB6C56D13C413C6E09EA32 /* MenuBarIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BAB8DBD56514FEA3C92E28 /* MenuBarIcon.swift */; };
+		B07EC678D6BFA3A9DF3C9211 /* ActivationMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11989C8204EB60596D46F39 /* ActivationMonitor.swift */; };
+		B186A61B6C3A1330BB011293 /* StatusItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43CED6960056244765A2492 /* StatusItemController.swift */; };
+		C974216F816F9E7E7B35BE63 /* DiagnosticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE9DF1232541BFA6A8D9DA4 /* DiagnosticModel.swift */; };
+		CDFE3293F754E657BEA925C5 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586BC7444E74CC12E975885A /* RootView.swift */; };
+		F6E37949A5E4D48AAD699553 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D30BF5F258B6990FB4CEE /* OnboardingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07A38A9FBD96FA9CD4A9329B /* AgentShieldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentShieldApp.swift; sourceTree = "<group>"; };
+		0E3BA44E03EDBD609F2934DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16CD017AB9632575C4F03E91 /* AppPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPreferences.swift; sourceTree = "<group>"; };
+		175BCAFAAE4F83D10390348B /* EventMetadataProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMetadataProbe.swift; sourceTree = "<group>"; };
+		586BC7444E74CC12E975885A /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		59BAB8DBD56514FEA3C92E28 /* MenuBarIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarIcon.swift; sourceTree = "<group>"; };
+		606194EA16FF587D7AA947EF /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		8EE9DF1232541BFA6A8D9DA4 /* DiagnosticModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticModel.swift; sourceTree = "<group>"; };
+		9807AD4BD19C0419E7B5463A /* CaptureProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureProbe.swift; sourceTree = "<group>"; };
+		BF1D30BF5F258B6990FB4CEE /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		D11989C8204EB60596D46F39 /* ActivationMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivationMonitor.swift; sourceTree = "<group>"; };
+		E43CED6960056244765A2492 /* StatusItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusItemController.swift; sourceTree = "<group>"; };
+		E72F6C82242B94D05E337089 /* DiagnosticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticView.swift; sourceTree = "<group>"; };
+		F9AC223BB557F32D7D727961 /* OverlayWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayWindowController.swift; sourceTree = "<group>"; };
+		F9F0543CC5027F33BDA44F01 /* AgentShield.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgentShield.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		B0E6271E3EFAD05BAC3BC738 = {
+			isa = PBXGroup;
+			children = (
+				EC0317009B6E5C3E2C05C897 /* AgentShield */,
+				BA95C88438A328C62881DEE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA95C88438A328C62881DEE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9F0543CC5027F33BDA44F01 /* AgentShield.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC0317009B6E5C3E2C05C897 /* AgentShield */ = {
+			isa = PBXGroup;
+			children = (
+				D11989C8204EB60596D46F39 /* ActivationMonitor.swift */,
+				07A38A9FBD96FA9CD4A9329B /* AgentShieldApp.swift */,
+				16CD017AB9632575C4F03E91 /* AppPreferences.swift */,
+				0E3BA44E03EDBD609F2934DA /* Assets.xcassets */,
+				9807AD4BD19C0419E7B5463A /* CaptureProbe.swift */,
+				606194EA16FF587D7AA947EF /* DashboardView.swift */,
+				8EE9DF1232541BFA6A8D9DA4 /* DiagnosticModel.swift */,
+				E72F6C82242B94D05E337089 /* DiagnosticView.swift */,
+				175BCAFAAE4F83D10390348B /* EventMetadataProbe.swift */,
+				59BAB8DBD56514FEA3C92E28 /* MenuBarIcon.swift */,
+				BF1D30BF5F258B6990FB4CEE /* OnboardingView.swift */,
+				F9AC223BB557F32D7D727961 /* OverlayWindowController.swift */,
+				586BC7444E74CC12E975885A /* RootView.swift */,
+				E43CED6960056244765A2492 /* StatusItemController.swift */,
+			);
+			path = AgentShield;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EDF4FD6FBF3A07C2E337486 /* AgentShield */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7857B63EE88F2FC6ED20D299 /* Build configuration list for PBXNativeTarget "AgentShield" */;
+			buildPhases = (
+				719CE90B7B07B270D0D66311 /* Sources */,
+				D9710276F7C2469A218344B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgentShield;
+			packageProductDependencies = (
+			);
+			productName = AgentShield;
+			productReference = F9F0543CC5027F33BDA44F01 /* AgentShield.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F82FCF16E8B09AFDB27EC31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6EDF4FD6FBF3A07C2E337486 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 675A4C381E0A391E2A2CF720 /* Build configuration list for PBXProject "AgentShield" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B0E6271E3EFAD05BAC3BC738;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BA95C88438A328C62881DEE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EDF4FD6FBF3A07C2E337486 /* AgentShield */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9710276F7C2469A218344B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20DB62704B79330B190882EB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		719CE90B7B07B270D0D66311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07EC678D6BFA3A9DF3C9211 /* ActivationMonitor.swift in Sources */,
+				8D90EA6764E7EF47E434E6A9 /* AgentShieldApp.swift in Sources */,
+				1C0D9EED4247FB599619A217 /* AppPreferences.swift in Sources */,
+				3AC700154CA483B49DC291B3 /* CaptureProbe.swift in Sources */,
+				992B8742646BE6452D8AFE8A /* DashboardView.swift in Sources */,
+				C974216F816F9E7E7B35BE63 /* DiagnosticModel.swift in Sources */,
+				3F920C83E9D927A3B71DFDE1 /* DiagnosticView.swift in Sources */,
+				8B76B10DFEE5F50A04F161E1 /* EventMetadataProbe.swift in Sources */,
+				AFAB6C56D13C413C6E09EA32 /* MenuBarIcon.swift in Sources */,
+				F6E37949A5E4D48AAD699553 /* OnboardingView.swift in Sources */,
+				1122F1F215AB687C9B43D568 /* OverlayWindowController.swift in Sources */,
+				CDFE3293F754E657BEA925C5 /* RootView.swift in Sources */,
+				B186A61B6C3A1330BB011293 /* StatusItemController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		59DC71F31CB848EBD5A8776B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Agent Shield";
+				INFOPLIST_KEY_CFBundleShortVersionString = "$(MARKETING_VERSION)";
+				INFOPLIST_KEY_CFBundleVersion = "$(CURRENT_PROJECT_VERSION)";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSScreenCaptureUsageDescription = "Agent Shield captures the desktop for authorized agents while excluding its privacy-shield overlays.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agentshield.app;
+				PRODUCT_NAME = "Agent Shield";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AC5246F3B1955089C3FE5889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Agent Shield";
+				INFOPLIST_KEY_CFBundleShortVersionString = "$(MARKETING_VERSION)";
+				INFOPLIST_KEY_CFBundleVersion = "$(CURRENT_PROJECT_VERSION)";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSScreenCaptureUsageDescription = "Agent Shield captures the desktop for authorized agents while excluding its privacy-shield overlays.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agentshield.app;
+				PRODUCT_NAME = "Agent Shield";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B6FE5CE72DE96234679F3A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		C91E77308A1F17DD6A6D636B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		675A4C381E0A391E2A2CF720 /* Build configuration list for PBXProject "AgentShield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FE5CE72DE96234679F3A84 /* Debug */,
+				C91E77308A1F17DD6A6D636B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7857B63EE88F2FC6ED20D299 /* Build configuration list for PBXNativeTarget "AgentShield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5246F3B1955089C3FE5889 /* Debug */,
+				59DC71F31CB848EBD5A8776B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F82FCF16E8B09AFDB27EC31 /* Project object */;
+}
