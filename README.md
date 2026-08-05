@@ -1,5 +1,8 @@
 # Agent Shield
 
+[![Build](https://github.com/mason50x/agent-shield/actions/workflows/build.yml/badge.svg)](https://github.com/mason50x/agent-shield/actions/workflows/build.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 Native macOS 26+ privacy-shield application that keeps the logged-in session and development processes running. This is explicitly **not** an OS lock screen.
 
 ## Requirements
@@ -36,3 +39,15 @@ Developers only need XcodeGen when regenerating `AgentShield.xcodeproj` after ed
 ```sh
 xcodegen generate
 ```
+
+Follow the controlled test matrix in `FEASIBILITY.md` when evaluating diagnostic behavior.
+
+The current build intentionally does not suppress physical input or authenticate an exit. Those features must not be enabled until the remaining feasibility gates have been measured.
+
+## Contributing
+
+Bug reports, feature ideas, and pull requests are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) and the [Code of Conduct](CODE_OF_CONDUCT.md) before contributing. Report vulnerabilities privately according to [SECURITY.md](SECURITY.md).
+
+## License
+
+Agent Shield is available under the [MIT License](LICENSE).
