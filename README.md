@@ -1,5 +1,8 @@
 # Agent Shield
 
+> [!WARNING]
+> **Work in progress:** Agent Shield is an early feasibility build. Behavior, setup, and security properties may change, and it should not be treated as an OS lock screen.
+
 [![Build](https://github.com/mason50x/agent-shield/actions/workflows/build.yml/badge.svg)](https://github.com/mason50x/agent-shield/actions/workflows/build.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
