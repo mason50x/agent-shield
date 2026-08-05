@@ -12,7 +12,7 @@ struct DiagnosticView: View {
                     .foregroundStyle(.cyan)
                 VStack(alignment: .leading, spacing: 3) {
                     Text("Agent Shield").font(.largeTitle.bold())
-                    Text("macOS 27 feasibility spike — not an OS lock screen")
+                    Text("macOS 26+ feasibility spike — not an OS lock screen")
                         .foregroundStyle(.secondary)
                 }
             }

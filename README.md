@@ -1,10 +1,10 @@
 # Agent Shield
 
-Native macOS 27 privacy-shield application that keeps the logged-in session and development processes running. This is explicitly **not** an OS lock screen.
+Native macOS 26+ privacy-shield application that keeps the logged-in session and development processes running. This is explicitly **not** an OS lock screen.
 
 ## Requirements
 
-- macOS 27 or later
+- macOS 26 or later
 - Xcode 27 or later
 - [XcodeGen](https://github.com/yonaskolb/XcodeGen) only if you want to regenerate the included Xcode project (`brew install xcodegen`)
 
